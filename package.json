@@ -1,0 +1,78 @@
+{
+  "_from": "https://www.atom.io/api/packages/build-mad-pascal/versions/0.0.1/tarball",
+  "_id": "build-mad-pascal@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-AKrPFkm/1s9M4b8gMLmrG+iCbs3VizCDo9AVyCFs90lwj4QMfYutRitqntZDrTEpJpKoGs12t+yTQWIJEvI2/g==",
+  "_location": "/build-mad-pascal",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/build-mad-pascal/versions/0.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/build-mad-pascal/versions/0.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/build-mad-pascal/versions/0.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/build-mad-pascal/versions/0.0.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/build-mad-pascal/versions/0.0.1/tarball",
+  "_shasum": "f774a4b62e28052b933b3d36a6938196bb175b93",
+  "_spec": "https://www.atom.io/api/packages/build-mad-pascal/versions/0.0.1/tarball",
+  "_where": "C:\\Users\\MADRAFi\\AppData\\Local\\Temp\\apm-install-dir-11903-16920-1iemha9.7i5f",
+  "bugs": {
+    "url": "https://github.com/MADRAFi/atom-build-mad-pascal/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-package-deps": "^4.3.1"
+  },
+  "deprecated": false,
+  "description": "Atom Build provider for mad-pascal, compiles Pascal for 6502 cpu",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "coffeelint-stylish": "^0.1.2",
+    "eslint": "^3.19.0",
+    "eslint-config-atom-build": "^4.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jsonlint": "^1.2.0",
+    "gulp-lesshint": "^3.0.1",
+    "jshint": "^2.9.3"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/MADRAFi/atom-build-mad-pascal#readme",
+  "keywords": [
+    "buildprovider",
+    "fpc",
+    "mad pascal",
+    "atari pascal",
+    "pascal"
+  ],
+  "license": "MIT",
+  "main": "lib/provider.js",
+  "name": "build-mad-pascal",
+  "package-deps": [
+    "build"
+  ],
+  "providedServices": {
+    "builder": {
+      "description": "Transpiles F#",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MADRAFi/atom-build-mad-pascal.git"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "version": "0.0.1"
+}

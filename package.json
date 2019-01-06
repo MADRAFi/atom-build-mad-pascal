@@ -69,7 +69,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MADRAFi/atom-build-mad-pascal.git"
+    "url": "https://github.com/MADRAFi/atom-build-mad-pascal.git"
   },
   "scripts": {
     "test": "gulp lint"

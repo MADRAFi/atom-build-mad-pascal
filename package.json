@@ -1,6 +1,6 @@
 {
   "name": "build-mad-pascal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom Build provider for mad-pascal, compiles Pascal for 6502 cpu",
   "repository": "https://github.com/MADRAFi/atom-build-mad-pascal",
   "license": "MIT",
